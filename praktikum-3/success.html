@@ -76,3 +76,18 @@
 
 </body>
 </html>
+<script>
+
+  $(function() {
+    $('.a_1_lk, a_48_lk').change(function(){
+      Laki1 = parseInt($('.a_1_lk').val());
+      Laki48 = parseInt($('.a_48_lk').val());
+
+      totallakipasienlama = Laki1+dll+Laki48;
+
+
+      $('.a_97_lk').val(totallakipasienlama);
+    });
+  });
+
+</script>
