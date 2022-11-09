@@ -1,0 +1,53 @@
+body{
+    justify-content: space-around;
+}
+header{
+    display: flex;
+    background-color: lightgreen;
+    flex-direction: row;
+    height: 30vh;
+    margin: 5px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.konten-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.konten-1 .attachment-1{
+    background-color: yellow;
+    height: 30vh;
+    flex: 1;
+    margin: 5px;
+}
+
+.konten-1 .article-1{
+    background-color: red;
+    height: 30vh;
+    flex: 4;
+    margin: 5px;
+}
+.konten-2{
+    display: flex;
+    flex-direction: row;
+}
+
+.konten-2 .attachment-2{
+    background-color: yellow;
+    height: 30vh;
+    flex: 1;
+    margin: 5px;
+}
+
+.konten-2 .article-2{
+    background-color: skyblue;
+    height: 30vh;
+    flex: 4;
+    margin: 5px;
+}
+
