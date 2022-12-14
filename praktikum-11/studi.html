@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dark Mode</title>
+</head>
+<body>
+	<h2>Silahkan Klik Tombol Untuk Ubah ke Mode Gelap</h2>
+	<button>Ubah</button>
+
+	<script type="text/javascript">
+		let btn = document.querySelector("button");
+		let body = document.querySelector("body");
+		let darkmode = true;
+
+		btn.addEventListener("click", function(){
+			if (darkmode == true) {
+				body.style.backgroundColor = "black";
+                body.style.color ="white";
+                btn.innerHTML = "Mode Terang";
+                darkmode = false;
+			} else {
+                body.style.background = "white"
+                body.style.color ="black";
+                btn.innerHTML = "Mode Gelap";
+                darkmode = true;
+			}
+		})
+	</script>
+</body>
+</html>
